@@ -1,0 +1,35 @@
+{
+  "name": "@iarkaroy/http",
+  "version": "0.0.1",
+  "description": "A micro XMLHttpRequest wrapper",
+  "main": "dist/build.js",
+  "scripts": {
+    "start": "webpack -w",
+    "build": "webpack -p",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iarkaroy/http.git"
+  },
+  "keywords": [
+    "http",
+    "xmlhttprequest",
+    "xhr"
+  ],
+  "author": "Arka Roy <i.arkaroy@gmail.com> (arkaroy.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iarkaroy/http/issues"
+  },
+  "homepage": "https://github.com/iarkaroy/http#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^3.6.0"
+  }
+}
